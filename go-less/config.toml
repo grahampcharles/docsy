@@ -1,0 +1,6 @@
+[module]
+_merge = "deep"
+# mount folder with vendored dependencies
+[[module.mounts]]
+  source = "assets/hugo-module-go-less/_vendor"
+  target = "_vendor"
